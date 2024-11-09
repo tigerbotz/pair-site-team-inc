@@ -50,9 +50,8 @@ router.get('/', async (req, res) => {
                     
 				const sockses = await sock.sendMessage(sock.user.id, { document: sessionsock, mimetype: `application/json`, fileName: `creds.json` });
                
-				await sock.sendMessage(sock.user.id, { text: `> 👨‍💻 *MY 𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢* ⚖️\n\n*⚡ηαмє -: ᴍᴀɴᴜʟ ᴏꜰꜰɪᴄɪᴀʟ*\n*⚡αgє -: 16*\n*⚡ωєв* -: https://manulofficial.vercel.app/\n*⚡ηυмвєя* -: +94742274855\n*⚡уσυтυвє* -: https://www.youtube.com/@ManulOfficialTech\n\n> ᴘᴏᴡᴇʀᴇᴅ ʙʏ -: *⚡©ᴍᴀɴᴜʟ ᴏꜰꜰɪᴄɪᴀʟ 2024💗*
-
-` }, {quoted: sockses});
+				await sock.sendMessage(sock.user.id, { text: `> *THIS PAIR CREATED BY WHITE INC OWNER WHITE TIGER MIND INC 🥷🈵*\n\n\n🈵  *YOUTUBE*  -: https://youtube.com/@white_tiger_modz_inc_2024?si=OHZCFTMlch8p_Kyo\n\n🈵 *TEAM OWNER NUMBER*-: 94755335072\n\n\n🈵 *POWERED BY WHITE INC TEAM*
+    `}, {quoted: sockses});
         await delay(100);
         return await removeFile('./session');
         process.exit(0)
